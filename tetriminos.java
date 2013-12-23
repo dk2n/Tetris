@@ -9,7 +9,7 @@ public class tetriminos extends JFrame {
   private static final int T_BLOCK = 4;
   private static final int S_BLOCK = 5;
   private static final int Z_BLOCK = 6;
-  private static final int 0_BLOCK = 7;
+  private static final int O_BLOCK = 7;
 
   public int i_block() {
     return I_BLOCK;
@@ -34,7 +34,7 @@ public class tetriminos extends JFrame {
     return Z_BLOCK;
   }
   public int o_block() {
-    return 0_BLOCK;
+    return O_BLOCK;
   }
   
   public void start_button() {}
