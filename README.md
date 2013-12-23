@@ -11,13 +11,13 @@ Function prototypes of the java interface that we will write:
 ------Tetriminos.java:
 
 /** Game display */
-1) public void i_block();		// Create an i block image.
-2) public void j_block();		// Create an j block image.
-3) public void l_block();		// Create an l block image.	
-4) public void t_block();		// Create an t block image.
-5) public void s_block();		// Create an s block image.
-6) public void z_block();		// Create an z block image.
-7) public void o_block();		// Create an o block image.
+1) public int i_block();		// Create an i block image.
+2) public int j_block();		// Create an j block image.
+3) public int l_block();		// Create an l block image.	
+4) public int t_block();		// Create an t block image.
+5) public int s_block();		// Create an s block image.
+6) public int z_block();		// Create an z block image.
+7) public int o_block();		// Create an o block image.
 
 /** Control buttons */
 8)  public void start_button();		// Start button.		
@@ -29,8 +29,10 @@ Function prototypes of the java interface that we will write:
 ------Gameplay.java:
 
 /** Game actions */
-1) public boolean spin_left();		// Rotate the block image 90 degree to the left.
-2) public boolean spin_right();		// Rotate the block image 90 degree to the right.
+1) public boolean rotate_left();	// Rotate the block image 
+					// 90 degree to the left.
+2) public boolean rotate_right();	// Rotate the block image 
+					// 90 degree to the right.
 3) public boolean gravity();		// Block floating. 
 4) public boolean push_down();		// Push down the block.
 5) public boolean block_connected();	// Connect the blocks. 
